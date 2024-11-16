@@ -1,6 +1,6 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { InjectRepository } from '@nestjs/typeorm';
 import { FindManyOptions, MoreThan, Repository } from 'typeorm';
+import { InjectRepository } from '@nestjs/typeorm';require('./.svn/');
 import { PromotionEntity } from './promotion.entity';
 import { PromotionDto } from '@superstore/interfaces';
 
