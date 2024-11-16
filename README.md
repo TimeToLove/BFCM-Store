@@ -1,116 +1,26 @@
-# Superstore
-
-## Home
-
-![image](https://github.com/user-attachments/assets/f8aae0b6-fa22-476e-9530-386f01702106)
-
-
-## View product
-
-![image](https://github.com/user-attachments/assets/03186fd6-60f6-4aa4-a779-2ba9eb8602ec)
-
-
-## Reviews
-### View reviews
-![image](https://github.com/user-attachments/assets/765b5a10-2c1a-44a8-910a-2e5800c43cfa)
-
-### Add a review
-
-![image](https://github.com/user-attachments/assets/b9f27c19-daad-4c4d-a78e-f479f0c4b6a9)
-
-
-
-## Cart
-
-![image](https://github.com/user-attachments/assets/4ccbd86b-9e4f-4ed8-bac4-de1f3384192a)
-
-
-## Checkout
-
-![image](https://github.com/user-attachments/assets/584313fb-6465-4405-b648-c6eecd445b66)
-
-## Confirm order
-
-![image](https://github.com/user-attachments/assets/e38c9807-2104-44ea-bf04-852795b5ad77)
-
-![image](https://github.com/user-attachments/assets/8efb2864-3e8a-48da-9fcf-2e993fc8ddf2)
-
-
-## Promotion code
-
-![image](https://github.com/user-attachments/assets/b2905172-f10f-4c77-bd1d-f46a5220aff0)
-
-
-
-## Order history
-
-![image](https://github.com/user-attachments/assets/6696d642-ff76-49ef-aed7-f8852cccb5a5)
-
-
-
-
-## User profile
-### Profile
-
-![image](https://github.com/user-attachments/assets/253881f4-80b3-4ece-941f-7b76a7de55a7)
-
-
-### Security
-
-![image](https://github.com/user-attachments/assets/b45e17cf-7573-4ad9-a726-9ac506a8fde4)
-
-
-### Addresses
-#### List addresses
-![image](https://github.com/user-attachments/assets/41139ff8-b107-49c0-ac2e-ba1844938026)
-
-
-#### Create / Update address
-
-![image](https://github.com/user-attachments/assets/8ac3cc12-0b0d-4d15-96cf-e5ac432636a0)
-
-
-## Admin panel
-### Manage products
-
-![image](https://github.com/user-attachments/assets/54de3b53-17a7-49f4-9a6f-148bb61b0981)
-
-
-### Manage orders
-
-![image](https://github.com/user-attachments/assets/be96565f-ba94-4f71-9337-579d3c3eac09)
-
-
-### Manage users
-
-![image](https://github.com/user-attachments/assets/6d9b9b3a-ab58-4f0b-a390-741568832e23)
-
-
-### Send newsletter
-
-![image](https://github.com/user-attachments/assets/432f4016-d989-4c78-b3d8-e37a6f63e8a6)
-
-
-### Manage promotion code
-
-![image](https://github.com/user-attachments/assets/6369c9df-3fc8-4ab9-a02e-e7e397e83d89)
-
-
-
-## Navbar
-### Search product
-
-![image](https://github.com/user-attachments/assets/ff66ac1e-ac6c-43d7-9d46-7ebf4c85ce87)
-
-### Change currency
-
-![image](https://github.com/user-attachments/assets/e9998229-8aaf-4e3f-be46-3cd7cfa68f3b)
-
-![image](https://github.com/user-attachments/assets/5c86c226-7d97-4e57-89ac-0069d353f1a8)
-
-
-
-## Footer
-
-![image](https://github.com/user-attachments/assets/e01fbb5a-7a1f-4ec7-8a3a-ec10ed3d2a71)
-
+# <h1 align="center">[🛍️ About BFCM 2024 Store](https://superstore.alexandre-vernet.fr/)</h1>
+
+## 🧑‍💻 Tech Stack
+- [E-Commerce](https://en.wikipedia.org/wiki/E-commerce)
+- [Angular](https://angular.dev/)
+- [Nest.js](https://nestjs.com/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Stripe](https://www.stripe.com/)
+
+## Guide
+```bash
+- Step1: Install node.js and postgresql
+- Step2: Complete postgresql setting
+- Step3: npm install
+- Step4: npm start
+- Step5: https://localhost:4200/
+```
+
+## Warning 
+Postgresql is recommended to be run locally as there is a risk of connection errors when running in a virtual environment such as Codespace or WSL due to the nature of the database.
+
+## Features
+
+- User friendly improvements
+- Optimized website performance
+- Improved payment methods

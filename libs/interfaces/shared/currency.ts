@@ -1,4 +1,4 @@
-import { Currency } from '../../../apps/client/src/app/shared/currency/currency';
+import { Currency } from '../../../apps/superstore/src/app/shared/currency/currency';
 
 export class CurrencyDto {
     name: string;

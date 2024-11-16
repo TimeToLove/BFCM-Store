@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "start": "concurrently \"npm run start:api\" \"npm run start:app\"",
     "start:app": "nx serve superstore",
-    "start:api": "nx serve api ",
+    "start:api": "nx serve api",
     "build:app": "nx build superstore",
     "build:api": "nx build api",
     "lint": "nx run-many --target=lint --all --fix"
@@ -41,6 +42,7 @@
     "@tailwindcss/forms": "^0.5.3",
     "axios": "^0.28.1",
     "bcrypt": "^5.1.0",
+    "concurrently": "^9.1.0",
     "jspdf": "^2.5.1",
     "jspdf-autotable": "^3.5.29",
     "leaflet": "^1.9.4",
