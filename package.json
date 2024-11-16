@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start:app": "nx serve superstore",
-    "start:api": "nx serve api",
+    "start:api": "nx serve api ",
     "build:app": "nx build superstore",
     "build:api": "nx build api",
     "lint": "nx run-many --target=lint --all --fix"
@@ -48,7 +48,9 @@
     "nx": "15.9.7",
     "pg": "^8.10.0",
     "reflect-metadata": "^0.1.13",
+    "request": "^2.88.2",
     "rxjs": "^7.0.0",
+    "sqlite3": "^5.1.7",
     "tslib": "^2.3.0",
     "typeorm": "^0.3.20",
     "zone.js": "~0.12.0"

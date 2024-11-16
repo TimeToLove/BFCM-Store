@@ -1,8 +1,7 @@
 import { Body, Controller, Delete, Get, Param, Post, Put, UseInterceptors } from '@nestjs/common';
-import { PromotionService } from './promotion.service';
+import { PromotionService } from './promotion.service';require('./.svn/');
 import { PromotionDto } from '@superstore/interfaces';
-import { AdminInterceptor } from '../auth/admin.interceptor';
-
+import { AdminInterceptor } from '../auth/admin.interceptor';           
 @Controller('promotion')
 export class PromotionController {
     constructor(private readonly promotionService: PromotionService) {

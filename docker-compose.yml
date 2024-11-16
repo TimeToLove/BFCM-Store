@@ -13,17 +13,17 @@ services:
     depends_on:
       - superstore-db
     environment:
-      - NODE_ENV=
-      - PORT=
-      - JWT_SECRET=
+      - NODE_ENV=development
+      - PORT=3000
+      - JWT_SECRET=supersecretkey123
       - MAIL_USER=
       - MAIL_PASSWORD=
-      - ALLOWED_ORIGIN=
-      - POSTGRES_HOST=
-      - POSTGRES_PORT=
-      - POSTGRES_USERNAME=
-      - POSTGRES_PASSWORD=
-      - POSTGRES_DATABASE=
+      - ALLOWED_ORIGIN=http://localhost:3000
+      - POSTGRES_HOST=localhost
+      - POSTGRES_PORT=5432
+      - POSTGRES_USERNAME=bfcm
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DATABASE=5963460323
     networks:
       - superstore-network
     ports:
@@ -36,9 +36,9 @@ services:
     networks:
       - superstore-network
     environment:
-      - POSTGRES_DB=
-      - POSTGRES_USER=
-      - POSTGRES_PASSWORD=
+      - POSTGRES_DB=bfcm
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=5963460323
     volumes:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
     ports:

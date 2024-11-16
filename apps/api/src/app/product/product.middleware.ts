@@ -6,7 +6,7 @@ export class ProductMiddleware implements NestMiddleware {
     use(req: Request, res: Response, next: (error?: Error) => void) {
         const slug = this.setSlug(req.body['name']);
         req.body['slug'] = slug;
-
+        
         const product: ProductDto = {
             id: req.body['id'],
             name: req.body['name'],

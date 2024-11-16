@@ -34,6 +34,7 @@ export class ViewCartComponent implements OnInit {
         this.cart.map(item => {
             total += item.price * item.quantity;
         });
+
         return Cart.convertTwoDecimals(total);
     }
 
